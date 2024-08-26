@@ -9,6 +9,5 @@ namespace DndPlaces.Controllers
     {
       return View();
     }
-
   }
 }
