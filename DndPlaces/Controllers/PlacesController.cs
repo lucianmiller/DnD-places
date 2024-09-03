@@ -13,8 +13,8 @@ namespace DndPlaces.Controllers
       return View(allPlaces);
     }
 
-    [HttpsGet("/places/new")]
-    public ActionResults New()
+    [HttpGet("/places/new")]
+    public ActionResult New()
     {
       return View();
     }

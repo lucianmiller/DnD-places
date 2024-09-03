@@ -5,8 +5,8 @@ namespace DndPlaces.Models
   public class Place
   {
     public string Description { get; set; }
-    string Id { get; }
-    private static List<Place> _instances = new List<Place>();
+    public int Id { get; }
+    public static List<Place> _instances = new List<Place>();
 
     public Place(string description)
     {
